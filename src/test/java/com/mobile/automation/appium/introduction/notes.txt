@@ -1,0 +1,2 @@
+to know what are the devices connected via chrome
+chrome://inspect/#devices
