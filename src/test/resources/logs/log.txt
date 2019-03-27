@@ -1,0 +1,162 @@
+2019-03-27 08:49:13:432 [Appium] Welcome to Appium v1.11.1
+2019-03-27 08:49:13:434 [Appium] Non-default server args:
+2019-03-27 08:49:13:435 [Appium]   logFile: C:\SeleniumAutomation\appium\src\test\resources\logs\log.txt
+2019-03-27 08:49:13:435 [Appium]   localTimezone: true
+2019-03-27 08:49:13:506 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-03-27 08:49:14:090 [HTTP] --> GET /wd/hub/status
+2019-03-27 08:49:14:091 [HTTP] {}
+2019-03-27 08:49:14:099 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-03-27 08:49:14:103 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.11.1"}}
+2019-03-27 08:49:14:117 [HTTP] <-- GET /wd/hub/status 200 21 ms - 68
+2019-03-27 08:49:14:117 [HTTP] 
+2019-03-27 08:49:15:349 [HTTP] --> POST /wd/hub/session
+2019-03-27 08:49:15:349 [HTTP] {"desiredCapabilities":{"appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","platformName":"Android","deviceName":"Android"},"capabilities":{"firstMatch":[{"appium:appActivity":".HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:deviceName":"Android","platformName":"android"}]}}
+2019-03-27 08:49:15:350 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","platformName":"Android","deviceName":"Android"},null,{"firstMatch":[{"appium:appActivity":".HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:deviceName":"Android","platformName":"android"}]}]
+2019-03-27 08:49:15:351 [BaseDriver] Event 'newSessionRequested' logged at 1553656755351 (08:49:15 GMT+0530 (India Standard Time))
+2019-03-27 08:49:15:360 [Appium] DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+2019-03-27 08:49:15:361 [Appium] Setting automation to 'UiAutomator1'. 
+2019-03-27 08:49:15:361 [Appium] Creating new AndroidDriver (v4.8.0) session
+2019-03-27 08:49:15:361 [Appium] Capabilities:
+2019-03-27 08:49:15:362 [Appium]   platformName: android
+2019-03-27 08:49:15:362 [Appium]   appActivity: .HomeScreenActivity
+2019-03-27 08:49:15:362 [Appium]   appPackage: io.selendroid.testapp
+2019-03-27 08:49:15:362 [Appium]   deviceName: Android
+2019-03-27 08:49:15:367 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appActivity":".HomeScreen... were provided
+2019-03-27 08:49:15:367 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-03-27 08:49:15:375 [BaseDriver] Session created with session id: d30daa1f-e261-4a73-b19f-30fdbbce56f0
+2019-03-27 08:49:15:566 [AndroidDriver] Java version is: 1.8.0_191
+2019-03-27 08:49:15:571 [ADB] Checking whether adb is present
+2019-03-27 08:49:15:578 [ADB] Found 1 'build-tools' folders under 'C:\Users\vinay\AppData\Local\Android\Sdk' (newest first):
+2019-03-27 08:49:15:579 [ADB]     C:/Users/vinay/AppData/Local/Android/Sdk/build-tools/28.0.3
+2019-03-27 08:49:15:581 [ADB] Using adb.exe from C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe
+2019-03-27 08:49:15:581 [AndroidDriver] Retrieving device list
+2019-03-27 08:49:15:582 [ADB] Trying to find a connected android device
+2019-03-27 08:49:15:582 [ADB] Getting connected devices...
+2019-03-27 08:49:15:621 [ADB] 1 device(s) connected
+2019-03-27 08:49:15:622 [AndroidDriver] Using device: QDT4C17C03002678
+2019-03-27 08:49:15:623 [ADB] Setting device id to QDT4C17C03002678
+2019-03-27 08:49:15:624 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell getprop ro.build.version.sdk'
+2019-03-27 08:49:15:706 [ADB] Current device property 'ro.build.version.sdk': 26
+2019-03-27 08:49:15:707 [ADB] Device API level: 26
+2019-03-27 08:49:15:708 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-03-27 08:49:15:710 [AndroidDriver] App file was not listed, instead we're going to run io.selendroid.testapp directly on the device
+2019-03-27 08:49:15:711 [AndroidDriver] Checking whether package is present on the device
+2019-03-27 08:49:15:712 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell pm list packages io.selendroid.testapp'
+2019-03-27 08:49:16:442 [AndroidDriver] Starting Android session
+2019-03-27 08:49:16:445 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 wait-for-device'
+2019-03-27 08:49:16:487 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell echo ping'
+2019-03-27 08:49:16:548 [AndroidDriver] Pushing settings apk to device...
+2019-03-27 08:49:16:550 [ADB] Getting install status for io.appium.settings
+2019-03-27 08:49:16:551 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell dumpsys package io.appium.settings'
+2019-03-27 08:49:16:666 [ADB] 'io.appium.settings' is installed
+2019-03-27 08:49:16:667 [ADB] Getting package info for 'io.appium.settings'
+2019-03-27 08:49:16:668 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell dumpsys package io.appium.settings'
+2019-03-27 08:49:16:782 [ADB] Checking whether aapt is present
+2019-03-27 08:49:16:784 [ADB] Using aapt.exe from C:\Users\vinay\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe
+2019-03-27 08:49:16:809 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-03-27 08:49:16:809 [ADB] There is no need to install/upgrade 'C:\Users\vinay\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-03-27 08:49:16:811 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-03-27 08:49:16:812 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell 'pgrep --help; echo $?''
+2019-03-27 08:49:16:901 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell pgrep \^appium\\.settings\$'
+2019-03-27 08:49:17:044 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-03-27 08:49:17:046 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell appops set io.appium.settings android\:mock_location allow'
+2019-03-27 08:49:17:175 [Logcat] Starting logcat capture
+2019-03-27 08:49:17:266 [ADB] Getting device platform version
+2019-03-27 08:49:17:267 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell getprop ro.build.version.release'
+2019-03-27 08:49:17:361 [ADB] Current device property 'ro.build.version.release': 8.0.0
+2019-03-27 08:49:17:362 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell wm size'
+2019-03-27 08:49:18:060 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell getprop ro.product.model'
+2019-03-27 08:49:18:179 [ADB] Current device property 'ro.product.model': BND-AL10
+2019-03-27 08:49:18:180 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell getprop ro.product.manufacturer'
+2019-03-27 08:49:18:313 [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+2019-03-27 08:49:18:336 [AndroidDriver] No app sent in, not parsing package/activity
+2019-03-27 08:49:18:336 [AndroidDriver] No app capability. Assuming it is already on the device
+2019-03-27 08:49:18:338 [ADB] Getting install status for io.selendroid.testapp
+2019-03-27 08:49:18:339 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell dumpsys package io.selendroid.testapp'
+2019-03-27 08:49:18:497 [ADB] 'io.selendroid.testapp' is installed
+2019-03-27 08:49:18:498 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell am force-stop io.selendroid.testapp'
+2019-03-27 08:49:18:611 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell pm clear io.selendroid.testapp'
+2019-03-27 08:49:19:433 [AndroidDriver] Performed fast reset on the installed 'io.selendroid.testapp' application (stop and clear)
+2019-03-27 08:49:19:435 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-03-27 08:49:19:438 [ADB] Forwarding system: 4724 to device: 4724
+2019-03-27 08:49:19:439 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 forward tcp\:4724 tcp\:4724'
+2019-03-27 08:49:19:542 [UiAutomator] Starting UiAutomator
+2019-03-27 08:49:19:542 [UiAutomator] Moving to state 'starting'
+2019-03-27 08:49:19:543 [UiAutomator] Parsing uiautomator jar
+2019-03-27 08:49:19:544 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-03-27 08:49:19:545 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 push C\:\\Users\\vinay\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-03-27 08:49:19:632 [ADB] Attempting to kill all uiautomator processes
+2019-03-27 08:49:19:632 [ADB] Getting IDs of all 'uiautomator' processes
+2019-03-27 08:49:19:633 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell pgrep \^uiautomator\$'
+2019-03-27 08:49:19:918 [ADB] No 'uiautomator' process has been found
+2019-03-27 08:49:19:919 [UiAutomator] Starting UIAutomator
+2019-03-27 08:49:19:920 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","QDT4C17C03002678","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","io.selendroid.testapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-03-27 08:49:20:684 [UiAutomator] Moving to state 'online'
+2019-03-27 08:49:20:691 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-03-27 08:49:20:692 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-03-27 08:49:20:702 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-03-27 08:49:20:705 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell dumpsys window'
+2019-03-27 08:49:20:717 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-03-27 08:49:20:836 [AndroidDriver] Screen already unlocked, doing nothing
+2019-03-27 08:49:20:839 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell am start -W -n io.selendroid.testapp/.HomeScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-03-27 08:49:22:128 [Appium] New AndroidDriver session created successfully, session d30daa1f-e261-4a73-b19f-30fdbbce56f0 added to master session list
+2019-03-27 08:49:22:131 [BaseDriver] Event 'newSessionStarted' logged at 1553656762130 (08:49:22 GMT+0530 (India Standard Time))
+2019-03-27 08:49:22:134 [W3C (d30daa1f)] Cached the protocol value 'W3C' for the new session d30daa1f-e261-4a73-b19f-30fdbbce56f0
+2019-03-27 08:49:22:136 [W3C (d30daa1f)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"Android"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"QDT4C17C03002678","deviceUDID":"QDT4C17C03002678","platformVersion":"8.0.0","deviceScreenSize":"1080x2160","deviceModel":"BND-AL10","deviceManufacturer":"HUAWEI"}}
+2019-03-27 08:49:22:141 [HTTP] <-- POST /wd/hub/session 200 6789 ms - 680
+2019-03-27 08:49:22:142 [HTTP] 
+2019-03-27 08:49:22:282 [HTTP] --> GET /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0
+2019-03-27 08:49:22:282 [HTTP] {}
+2019-03-27 08:49:22:284 [W3C (d30daa1f)] Calling AppiumDriver.getSession() with args: ["d30daa1f-e261-4a73-b19f-30fdbbce56f0"]
+2019-03-27 08:49:22:306 [W3C (d30daa1f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"Android"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"QDT4C17C03002678","deviceUDID":"QDT4C17C03002678","platformVersion":"8.0.0","deviceScreenSize":"1080x2160","deviceModel":"BND-AL10","deviceManufacturer":"HUAWEI"}
+2019-03-27 08:49:22:308 [HTTP] <-- GET /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0 200 24 ms - 612
+2019-03-27 08:49:22:313 [HTTP] 
+2019-03-27 08:49:22:317 [HTTP] --> GET /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0
+2019-03-27 08:49:22:318 [HTTP] {}
+2019-03-27 08:49:22:318 [W3C (d30daa1f)] Calling AppiumDriver.getSession() with args: ["d30daa1f-e261-4a73-b19f-30fdbbce56f0"]
+2019-03-27 08:49:22:321 [W3C (d30daa1f)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"Android"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"QDT4C17C03002678","deviceUDID":"QDT4C17C03002678","platformVersion":"8.0.0","deviceScreenSize":"1080x2160","deviceModel":"BND-AL10","deviceManufacturer":"HUAWEI"}
+2019-03-27 08:49:22:322 [HTTP] <-- GET /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0 200 4 ms - 612
+2019-03-27 08:49:22:322 [HTTP] 
+2019-03-27 08:49:22:336 [HTTP] --> POST /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0/timeouts
+2019-03-27 08:49:22:336 [HTTP] {"implicit":60000}
+2019-03-27 08:49:22:337 [W3C (d30daa1f)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"d30daa1f-e261-4a73-b19f-30fdbbce56f0"]
+2019-03-27 08:49:22:339 [BaseDriver] W3C timeout argument: {"implicit":60000}}
+2019-03-27 08:49:22:339 [BaseDriver] Set implicit wait to 60000ms
+2019-03-27 08:49:22:341 [W3C (d30daa1f)] Responding to client with driver.timeouts() result: null
+2019-03-27 08:49:22:343 [HTTP] <-- POST /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0/timeouts 200 6 ms - 14
+2019-03-27 08:49:22:344 [HTTP] 
+2019-03-27 08:49:25:355 [HTTP] --> DELETE /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0
+2019-03-27 08:49:25:356 [HTTP] {}
+2019-03-27 08:49:25:357 [W3C (d30daa1f)] Calling AppiumDriver.deleteSession() with args: ["d30daa1f-e261-4a73-b19f-30fdbbce56f0"]
+2019-03-27 08:49:25:358 [BaseDriver] Event 'quitSessionRequested' logged at 1553656765357 (08:49:25 GMT+0530 (India Standard Time))
+2019-03-27 08:49:25:360 [Appium] Removing session d30daa1f-e261-4a73-b19f-30fdbbce56f0 from our master session list
+2019-03-27 08:49:25:361 [AndroidDriver] Shutting down Android driver
+2019-03-27 08:49:25:365 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell am force-stop io.selendroid.testapp'
+2019-03-27 08:49:25:610 [ADB] Pressing the HOME button
+2019-03-27 08:49:25:611 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell input keyevent 3'
+2019-03-27 08:49:26:650 [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2019-03-27 08:49:26:656 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2019-03-27 08:49:26:656 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2019-03-27 08:49:26:659 [AndroidBootstrap] Received command result from bootstrap
+2019-03-27 08:49:26:660 [UiAutomator] Shutting down UiAutomator
+2019-03-27 08:49:26:661 [UiAutomator] Moving to state 'stopping'
+2019-03-27 08:49:26:664 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2019-03-27 08:49:26:665 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2019-03-27 08:49:26:666 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2019-03-27 08:49:26:666 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2019-03-27 08:49:26:687 [UiAutomator] UiAutomator shut down normally
+2019-03-27 08:49:26:687 [UiAutomator] Moving to state 'stopped'
+2019-03-27 08:49:26:688 [ADB] Attempting to kill all uiautomator processes
+2019-03-27 08:49:26:689 [ADB] Getting IDs of all 'uiautomator' processes
+2019-03-27 08:49:26:689 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell pgrep \^uiautomator\$'
+2019-03-27 08:49:26:870 [ADB] No 'uiautomator' process has been found
+2019-03-27 08:49:26:871 [UiAutomator] Moving to state 'stopped'
+2019-03-27 08:49:26:873 [Logcat] Stopping logcat capture
+2019-03-27 08:49:26:887 [ADB] Running 'C:\Users\vinay\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s QDT4C17C03002678 shell am force-stop io.appium.unlock'
+2019-03-27 08:49:27:037 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-03-27 08:49:27:038 [BaseDriver] Event 'quitSessionFinished' logged at 1553656767038 (08:49:27 GMT+0530 (India Standard Time))
+2019-03-27 08:49:27:039 [W3C (d30daa1f)] Received response: null
+2019-03-27 08:49:27:040 [W3C (d30daa1f)] But deleting session, so not returning
+2019-03-27 08:49:27:041 [W3C (d30daa1f)] Responding to client with driver.deleteSession() result: null
+2019-03-27 08:49:27:043 [HTTP] <-- DELETE /wd/hub/session/d30daa1f-e261-4a73-b19f-30fdbbce56f0 200 1687 ms - 14
+2019-03-27 08:49:27:044 [HTTP] 
