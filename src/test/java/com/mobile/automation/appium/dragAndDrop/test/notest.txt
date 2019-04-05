@@ -1,0 +1,6 @@
+C:\Users\vinay>adb shell
+HWBND-H:/ $ dumpsys window windows | grep -E 'mCurrentFocus'
+  mCurrentFocus=Window{fe8ff96 u0 com.bt.bms/com.movie.bms.design_v3.ui.activities.MainActivity_v3}
+  
+  
+  ----> install third party apps to know app info, package, activity information
